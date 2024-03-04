@@ -1,0 +1,6 @@
+/* Стилі з зовнішнього файлу */
+.external-style {
+    color: purple;
+    border: 3px dotted orange;
+    width: 10%;
+}

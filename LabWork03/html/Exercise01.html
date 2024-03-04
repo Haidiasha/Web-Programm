@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabWork01(Exercise01 "Фізичні розмітки")</title>
+</head>
+<body>
+    <!-- Тег <b></b> - надає тексту жирне зображення -->
+        <p>
+            <b>Тег &lt;b&gt;&lt;/b&gt;:</b>
+            Lorem ipsum dolor, <b>sit amet consectetur adipisicing elit</b>. Facere veritatis neque repellendus, voluptas facilis debitis!
+        </p>
+
+    <!-- Тег <bdi></bdi> - вказує фрагмент тексту, який має бути ізольований від зміни напрямку введення тексту HTML5 -->
+        <!-- 
+            Атрибут dir вказує напрямок і відображення тексту. Має такі значення:
+                - ltr - текст відображається з ліва на право.
+                - rtl - текст відображається зправа на ліво.
+                - auto - значення за замовчуванням. -->
+
+
+    <p dir="rtl"><bdi>שבת</bdi> — суббота <bdi><b>Тег &lt;bdi&gt;&lt;/bdi&gt;:</bdi></p> 
+
+    <!-- Тег <bdo></bdo> встановлює напрямок введення тексту-->
+    <p>
+        <b>Тег &lt;bdo&gt;&lt;/bdo&gt;:</b>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus reprehenderit magni voluptatum. <bdo dir="rtl"><b>Enim, ratione quae?</b></bdo>
+    </p>
+
+    <!-- Тег <i></i> - надає тексту курсивне зображення -->
+    <p>
+        <b>Тег &lt;i&gt;&lt;/i&gt;:</b>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <i>Debitis deleniti perspiciatis nobis, at cupiditate eum.</i>
+    </p>
+
+    <!-- Тег <s></s> - відображає текс як переклеслений -->
+    <p>
+        <b>Тег &lt;s&gt;&lt;/s&gt;:</b>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. <s>Praesentium expedita repellat harum atque adipisci.</s> Minus?
+    </p>
+
+    <!-- Тег <small></small> - робить текст на одну умовну одиницю менше -->
+    <p>
+        <b>Тег &lt;small&gt;&lt;/small&gt;:</b>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.<small>Ex rem,<small>voluptate eum eius quod molestiae?</small></small> 
+    </p>
+
+    <!-- Тег <big></big> - робить текст наодну умовнуодиницю більше, 
+        але тег big прибрали зі специфікації HTML5, 
+        хоча браузери його все ще підтримують. -->
+    <p>
+        <b>Тег &lt;big&gt;&lt;/big&gt;:</b>
+        Lorem ipsum dolor sit amet consectetur, <big>adipisicing elit. <big>Eum facilis consectetur molestias veniam reprehenderit iste!</big></big>
+    </p>
+
+    <!-- Тег <sup></sup> - поміщає вміст у верхній індекс -->
+    <p>
+        <b>Тег &lt;sup&gt;&lt;/sup&gt;:</b>
+        Lorem ipsum dolor sit <sup>amet consectetur adipisicing elit.<sup>Sit cum nemo ab quam dolore quaerat!</sup></sup>
+    </p>
+
+    <!-- Тег <sub></sub> - поміщає вміст у нижній індекс -->
+    <p>
+        <b>Тег &lt;sub&gt;&lt;/sub&gt;:</b>
+        Lorem ipsum dolor sit <sub> amet consectetur adipisicing elit.<sub>At iste placeat id possimus, cumque adipisci!</sub></sub>
+    </p>
+
+    <!-- Тег <meter></meter> використовується для виведення числових значень у заданому діапазоні. (HTML5)
+            Має такі атрибути:
+                - value - задане значення.
+                - min - мінімально можливе значення.
+                - max - максимально можливе значення.
+                - low - задає межу, при досягненні якої значення вважається низьким.
+                - high - задає межу, при досягненні якої значення вважається високим.
+                - optimum - визначає найкраще значення. -->
+    <p><b>Тег &lt;meter&gt;&lt;/meter&gt;:</b></p>
+    <p>Тиск</p>
+    <meter value="10" max="100" min="0" low="10" high="60">Показання датчиків низькі</meter>
+
+    <!-- Тег <progress></progress> - використовується для відображення прогресу. (HTML5)
+            - value - поточне значення.
+            - max - максимальне значення. -->
+    <p><b>Тег &lt;progress&gt;&lt;/progress&gt;:</b></p>
+    <p>Зачекайте, триває завантаження файлів</p>
+    <progress value="52" max="100">Загружено на <span id="value">52</span>%</progress>
+    
+    <!-- Тег <span></span> - використовується для виділення фрагментів тексту та дозволяє задати їм стильові значення -->
+    <p lang="en">
+        <b><span lang="ua">Тег</span>&lt;span&gt;&lt;/span&gt;:</b>
+        Lorem <span lang="ua">Сірожа</span> ipsum dolor sit amet consectetur adipisicing elit. Eius voluptate iste quos deleniti. Eaque, magni.
+        
+    </p>
+    <a href="/index.html" title="index.html">Натисніть, щоб повернутися до меню завдань</a> <br>
+</body>
+</html>
