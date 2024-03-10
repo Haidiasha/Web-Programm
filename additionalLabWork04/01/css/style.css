@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{ 
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+header h1{
+  font-size: 30px;
+  padding-top: 40px;
+}
+
+header h3{
+    padding-bottom: 15px;
+}
+
+header p{
+  padding-top: 3px;
+  font-size: 12px;
+}
+
+header table{
+  border-collapse: collapse;
+}
+
+header th{
+  width: 200px;
+}
+
+.fon{
+  background-color: rgb(255, 102, 102);
+}
+
+.img {
+  float: left;
+  margin: 0 0 0 0;
+}
+
+.white-line{
+  margin-top: 15px;
+  margin: 0 auto;
+  background-color: white;
+  height: 3px;
+  width: 38px;
+  margin-bottom: 60px
+}
+
+.block-1{
+    text-align: center;
+    background-color: rgb(74, 74, 242);
+    color: white;
+}
+
+.block-1 h1{
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.block-1 h3{
+  padding-bottom: 30px;
+}
+
+.block-1 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  left: 50%;
+  bottom: -35px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 20px solid white;
+}
+
+.arrow-button{
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(74, 74, 242);
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.arrow{
+  width: 32px;
+  height: 32px;
+  transform: translate(0px, 3px)
+}
+
+.modal-icon-close {
+  top: 8px;
+  right: 8px;
+  border: 1px solid red;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  text-decoration: none;
+  background-color: red;
+  transform: translate(25px, -20px);
+}
+
+.text1{
+  padding-top: 35px;
+    padding-bottom: 60px;
+    color: rgb(152, 145, 145);
+}
+
+.ditails{
+    background-color: white;
+    width: 600px;
+    position: relative;
+}
+
+.block-1 input {
+    padding: 5px;
+    width: 400px;
+    height: 25px;
+    border: 2px solid rgb(152, 145, 145);
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+.button1 {
+    margin: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;   
+}
+
+.button1:active{
+  transform: scale(0.9);
+}
+
+.block-2{
+    background-color:rgb(53, 52, 52);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-2 h1{
+  color: white;
+  font-size: 30px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.block-2 h3{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: gray;
+}
+
+.block-2 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  
+.block-2 input {
+  padding: 5px;
+  width: 600px;
+  height: 40px;
+  border: none;
+  background-color:rgb(99, 99, 99);
+  }
+  
+.button2 {
+  background-color: rgb(53, 52, 52);
+  color: rgb(238, 238, 238);
+  border: 3px solid rgb(99, 99, 99);
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.button2:active{
+  transform: scale(0.9);
+}
+
+.messangers{
+  padding: 5px;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(53, 52, 52);
+  border: 2px solid rgb(99, 99, 99);
+  cursor: pointer;
+}
+
+.messangers:hover{
+  transform: scale(1.1);
+  transition: transform 0.1s ease-in-out;
+}
+
+input::placeholder {
+  color:rgb(183, 183, 183);
+}
+
+footer{
+    text-align: center; 
+    background-color: rgb(99, 99, 99);
+    color: rgb(183, 183, 183);
+    padding: 15px;
+}
