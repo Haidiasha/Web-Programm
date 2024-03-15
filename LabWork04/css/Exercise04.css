@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(20, 20, 186);
+    height: 60px;
+    display: flex;
+    align-items:  center;
+}
+
+nav{
+    background-color: aqua;
+    height: 30px;
+    display: flex;
+    align-items:  center;
+}
+
+nav li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav li:not(:last-child){
+    margin-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    height: 500px;
+    background-color: blueviolet;
+    text-align: center;
+    display: flex;
+}
+
+main article {
+    margin: auto;
+  }
+
+footer{
+    background-color: grey;
+    text-align: center;
+    padding: 5px;
+}

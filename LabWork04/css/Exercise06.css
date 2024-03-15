@@ -1,0 +1,10 @@
+.audio-container {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.audio-container audio {
+    width: 100%;
+    height: auto;
+}

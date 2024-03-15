@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head, .col{
+    display: flex;
+}
+
+.head{
+    color: white;
+}
+
+.header1, .header2, .header3, .col1, .col2, .col3{
+    width: 33%;
+    border: 3px solid gray; 
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.col1, .col2, .col3{
+    height: 200px;
+}
+
+.header1{
+ 
+    background-color: brown;
+}
+
+.header2{
+    background-color: green;
+}
+
+.header3{
+
+    background-color: blue;
+}
+
+.col1{
+
+   background-color: rgb(164, 77, 77) ; 
+}
+
+.col2{
+    background-color: rgb(65, 132, 65);
+}
+
+.col3{
+    background-color: rgb(85, 85, 206);
+}

@@ -1,0 +1,10 @@
+video-container {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.video-container video {
+    width: 85%;
+    height: 90%;
+}
